@@ -14,7 +14,6 @@
         </ows:Keywords>
         <ows:ServiceType>WPS</ows:ServiceType>
         <ows:ServiceTypeVersion>1.0.0</ows:ServiceTypeVersion>
-        <ows:ServiceTypeVersion>2.0.0</ows:ServiceTypeVersion>
         <ows:Fees>{{ fees }}</ows:Fees>
         <ows:AccessConstraints>
         {% for ac in accessconstraints %}
